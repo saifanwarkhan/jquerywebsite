@@ -1,0 +1,671 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo Website</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="jquery-ui-themes-1.12.1/themes/ui-lightness/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="j.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+<style>
+
+*{
+
+
+font-family: 'Roboto Mono', monospace;
+}
+.first-section{
+width: 600px; height: 300px; background-color: #ff6464; 
+margin-top:18%;
+text-align:center;
+color: white;
+border-radius: 50px;
+display:none;
+
+}
+
+.about-hr{
+	border-left: 6px solid salmon;
+  height: 300px; margin-top: 10px;
+
+}
+
+.first-section p{
+	margin-top: 5%;
+}
+
+.first-section h1{
+	
+}
+
+.first-section-img{
+
+width: 100%; height: 500px;
+
+
+}
+
+.cover{
+width: 100%; height: 200px;
+
+}
+
+#first-img{
+
+width: 100%; height: 500px;
+
+}
+
+.second-section-about{
+
+width: 90%; height: 200px;
+text-align:center;
+margin-top: 25%;
+
+
+}
+.second-section-about h1{
+display:none;
+}
+
+.second-section-para{
+width: 90%; height: 200px;
+margin-top: 17%; margin-left: 0px;
+margin-bottom: 0px;
+
+}
+
+#third-section-one{
+
+width: 100%; height: 500px;
+background-color: #e6e56c;
+
+
+}
+
+#third-section-two{
+
+width: 100%; height: 500px;
+<!--background-color: #cf455c;-->
+
+}
+
+#third-section-two img{
+	border-radius: 50px;
+	height: 100px;
+	margin-left: 10%;
+
+}
+
+#third-section-one h1{
+
+margin-top:0%;
+text-align:center;
+display:none;
+}
+
+
+hr.hr{
+
+border: 4px solid salmon;
+width: 150px;
+margin-top: 25%;
+
+
+}
+
+hr.hr1{
+border: 4px solid salmon;
+width: 150px;
+
+
+}
+
+#third-section-one{
+
+width: 100%; height: 500px;
+background-color: #e6e56c;
+
+
+}
+
+#fourth-section-two{
+
+width: 100%; height: 500px;
+display:none;
+<!--background-color: #cf455c;-->
+
+
+}
+
+#fourth-section-two img{
+	border-radius: 50px;
+	height: 100px;
+	margin-left: 10%;
+
+
+}
+
+	#fourth-section-two{background-color: #1DC690; }
+#fourth-section-one h1{
+
+margin-top:0%;
+text-align:center;
+display:none;
+}
+
+#fifth-section{
+width:100%;
+height: 500px;
+background-color: #fffeee;
+margin-top: 25px;
+box-shadow: 2px 3px 4px 5px;
+text-align:center;
+font-size: 20px;
+font-weight: bolder;
+display:none;
+
+}
+
+#fifth-section h3{
+
+font-size: 40px;
+margin-top:20%;
+}
+
+#fifth-section span{
+
+color: salmon;}
+
+.fifth-section-main{
+background-image: linear-gradient(to right,salmon,salmon,black,black);
+}
+
+ul{
+
+/*display: flex!important;
+justify-content: space-around;*/
+list-style: none;
+
+}
+ul li{
+
+text-transform: uppercase;
+padding: 0px 40px;
+}
+
+.toggle{
+
+		display: none;
+		text-align: right;
+	}
+
+
+@media(min-width: 320px) and (max-width: 480px){
+
+
+*{
+
+
+font-family: 'Livvic', sans-serif;
+}
+.first-section{
+width: 100%; height: 300px; background-color: #ff6464; 
+margin-top:18%;
+text-align:center;
+color: white;
+border-radius: 50px;
+display:none;
+
+}
+
+.first-section p{
+	margin-top: 5%;
+}
+
+.first-section h1{
+	
+}
+
+.first-section-img{
+
+width: 100%; height: 300px;
+
+
+
+}
+
+.cover{
+width: 100%; height: 200px;
+
+}
+
+#first-img{
+
+width: 100%; height: 400px;
+
+}
+
+.second-section-about{
+
+width: 100%; height: 100px;
+text-align:center;
+margin-top: 15%;
+
+
+}
+.second-section-about h1{
+display:none;
+font-size: 18px;
+}
+
+.second-section-para{
+width: 100%; height: 200px;
+margin-top: 12%; margin-left: 0px;
+margin-bottom: 0px;
+text-align: center;
+font-size: 12px;
+
+}
+
+#third-section-one{
+
+width: 100%; height: 300px!important;
+background-color: #e6e56c;
+
+
+}
+
+#third-section-two{
+
+width: 100%; height: 300px; font-size: 10px!important;
+/*<!--background-color: #cf455c;-->*/
+
+}
+
+#third-section-two img{
+	border-radius: 50px;
+	height: 60px;
+	margin-left: 5%;
+
+}
+
+#third-section-one h1{
+
+margin-top:0%;
+text-align:center;
+display:none;
+font-size: 18px;
+}
+
+.third-text{
+	font-size: 16px!important;
+	margin-left: 2%!important;
+}
+
+/*.third-text span{
+	font-size: 10px!important;
+}*/
+
+
+hr.hr{
+
+border: 4px solid salmon;
+width: 150px;
+margin-top: 25%;
+
+
+}
+
+hr.hr1{
+border: 4px solid salmon;
+width: 150px;
+
+
+}
+
+/*#third-section-one{
+
+width: 100%; height: 500px;
+background-color: #e6e56c;
+
+
+}*/
+
+#fourth-section-two{
+
+width: 100%; height: 300px!important;
+display:none;
+<!--background-color: #cf455c;-->
+
+
+}
+
+#fourth-section-two img{
+	border-radius: 50px;
+	height: 60px;
+	margin-left: 0%;
+
+
+
+}
+
+
+#fourth-section-one{
+
+width: 100%; height: 200px!important;
+
+}
+
+	#fourth-section-two{background-color: #1DC690; font-size: 10px!important; }
+#fourth-section-one h1{
+
+margin-top:0%!important;
+text-align:center;
+display:none;
+font-size: 18px;
+}
+
+#fifth-section{
+width:100%;
+height: 300px;
+background-color: #fffeee;
+margin-top: 35px;
+box-shadow: 2px 3px 4px 5px;
+text-align:center;
+font-size: 14px;
+font-weight: bolder;
+display:none;
+
+}
+
+#fifth-section h3{
+
+font-size: 30px;
+margin-top:20%;
+}
+
+#fifth-section span{
+
+color: salmon;}
+
+.fifth-section-main{
+background-image: linear-gradient(to right,salmon,salmon,black,black);
+}
+
+.toggle{
+
+		display: block;
+	}
+	ul {
+
+	width:100%;
+	display: none;
+}
+
+ul li {
+
+	display: block;
+	text-align: center;
+}
+
+.active{
+
+	display: block;
+}
+
+
+
+
+.logo{
+
+	width: 50px;
+	margin-left: 0px;
+}
+
+.about-hr{
+	border-top: 6px solid salmon;
+  margin-top: 0px; height: 0px; width: 200px;
+
+}
+
+.fourth-text{
+
+		font-size: 16px!important;
+	margin-left: 2%!important;
+
+}
+
+
+}
+
+</style>
+
+
+</head>
+<body class="bg-dark">
+<br>
+<br><br>
+<div class="container bg-light col-sm-12 col-12  ">
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <a class="navbar-brand" href="#"><img src="logo.png" class="logo" style="height: 70px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto float-right">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+     
+  </div>
+</nav>
+
+
+<!--</nav>-->
+<br>
+<!--first-section -->
+<div class="row">
+<div class="col-lg-6 col-sm-6">
+<div class="first-section">
+<br>
+<br>
+<br>
+<h3>SAIF 
+<br>ANWAR KHAN</h3>
+<p><img src="https://img.icons8.com/cotton/128/000000/web-design.png"></p>
+</div>
+</div>
+
+<div class="col-lg-6 col-sm-6 ">
+<div style="" class=".first-section-img">
+<img src="1.png" class="img-fluid" id="first-img">
+</div>
+</div>
+
+</div>
+<br>
+<div><img src="cover.png" class="cover"></div>
+<!--second-section -->
+<br>
+<div class="row">
+<div class="col-lg-6 col-sm-6">
+<div class="second-section-about">
+<h1>All About Me</h1>
+
+</div>
+
+</div>
+<!-- <div class="col-lg-1 col-sm-1 about-hr"></div> -->
+   <hr class="about-hr">
+<div class="col-lg-5 col-sm-5">
+<div class="second-section-para">
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+</div>
+
+</div>
+<br>
+<!-- third section-->
+<div class="row">
+<div class="col-lg-6 col-sm-6">
+<div id="third-section-one">
+<br>
+<br>
+<hr class="hr">
+<h1>What I Can Do</h1>
+<hr class="hr1">
+</div>
+</div>
+
+<div class="col-lg-6 col-sm-6">
+<div id="third-section-two">
+<br>
+<br><br>
+<img src="2.png"><span style="float:right; margin-right:30%;"><span style="font-size: 24px; font-weight:bolder" class="third-text">SAIF</span>
+<br>*Lorem Ipsum
+<br>*Lorem Ipsum 
+<br>*Lorem Ipsum </span>
+<br>
+<br>
+<br>
+<img src="3.png"><span style="float:right; margin-right:30%;"><span style="font-size: 24px; font-weight:bolder" class="third-text">SHAHID</span>
+<br>*Lorem Ipsum
+<br>*Lorem Ipsum 
+<br>*Lorem Ipsum </span>
+<br>
+<br>
+<br>
+<img src="4.png"><span style="float:right; margin-right:30%;"><span style="font-size: 24px; font-weight:bolder" class="third-text">MOXLEY</span>
+<br>*Lorem Ipsum
+<br>*Lorem Ipsum 
+<br>*Lorem Ipsum </span>
+
+
+</div>
+</div>
+
+</div>
+<br><br>
+<!-- fourth section-->
+<div class="row">
+<div class="col-lg-6 col-sm-6">
+<div id="fourth-section-one">
+
+<hr class="hr">
+<h1>Testimonials</h1>
+<hr class="hr1">
+</div>
+</div>
+
+<div class="col-lg-6 col-sm-6">
+<div id="fourth-section-two">
+<br>
+<br>
+<img src="5.png"><span style="float:right; margin-right:0%;"><span style="font-size: 24px; font-weight:bolder" class="fourth-text">JOHN</span>
+<br>Lorem Ipsum is simply dummy text
+<br>the printing and typesetting industry 
+<br>it to make a type specimen book </span>
+<br>
+<br>
+<br>
+<img src="6.png"><span style="float:right; margin-right:0%;"><span style="font-size: 24px; font-weight:bolder" class="fourth-text">DEAN</span>
+<br>Lorem Ipsum is simply dummy text
+<br>the printing and typesetting industry 
+<br>it to make a type specimen book </span>
+<br>
+<br>
+<br>
+<img src="7.png"><span style="float:right; margin-right:0%;"><span style="font-size: 24px; font-weight:bolder" class="fourth-text">ROMAN</span>
+<br>Lorem Ipsum is simply dummy text
+<br>the printing and typesetting industry 
+<br>it to make a type specimen book</span>
+
+
+</div>
+</div>
+
+</div>
+<br>
+<br>
+<div class="fifth-section-main">
+<div class="row">
+<div class="col-lg-3 col-sm-3">
+</div>
+
+<div class="col-lg-6 col-sm-6" id="fifth-section">
+<h3>Contact Details</h3>
+<br><br>
+<span>Phone Number:
++91 8447335214</span>
+<br>
+<span>Email:
+saifanwarkhan0026@gmail.com</span>
+<br>
+<span>Address:
+New Delhi, India</span>
+</div>
+
+
+
+
+<div class="col-lg-3 col-sm-3">
+</div>
+</div>
+</div>
+<br>
+<br>
+
+
+
+</div>
+<br>
+<br><br>
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+$(".first-section").show("slide",4000);
+
+});
+
+
+
+$("#fourth-section-two").show("scale",15000,function(){
+});
+
+$("#fifth-section").show("pulsate",15000,function(){
+});
+
+$("#fourth-section-one h1, #third-section-one h1, .second-section-about h1").show("bounce", {times:8}, 30000 ,function(){
+});
+
+
+		$(document).ready(function(){
+				$(".menu").click(function(){
+				$('ul').toggleClass('active');
+				});
+
+		});
+
+</script>
+
+
